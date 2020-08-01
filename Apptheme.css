@@ -1,0 +1,393 @@
+html{
+    box-sizing: border-box;
+}
+body{
+    font-family:  sans-serif;
+    background: #fafafafa;
+line-height: 1.3rem;
+width: 100%;
+background:#fff;
+}
+main{
+    margin:0;
+}
+#main-header{
+    background:#fff;
+    width:100%;
+    margin:0;
+    border-bottom:1px solid #56a79a
+}
+.container{
+    display: grid;
+    grid-gap:30px;
+    grid-template-columns: repeat(2, 1fr);
+}
+#navbar ul {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    padding:0;
+}
+#navbar a{
+    text-decoration:none;
+    padding:5px;
+    font-size:1rem;
+}
+.boy{
+    background: #333;
+}
+#navbar a:hover{
+    border-bottom:3px solid #56a79a;
+}
+.container h1{
+    margin-left:25%;
+}
+
+#showcase{
+    background: url(imgs/kh.jpeg);
+    height: 70vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+#showcase-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+#showcase-text h1{
+    color:#fafafa;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+.cover{
+    background: #333;
+    border:1px solid #333;
+    border-radius:50px;
+    padding:0 3rem;
+    opacity: 0.8;
+    line-height: 1.3rem;
+}
+#showcase-text p{
+    color: #fafafa;
+    font-size: 0.8rem;
+    text-align: center; 
+}
+img{
+    max-width: 100%;
+}
+#info{
+    width: 80%;
+    margin:auto;
+}
+#info-attribute{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#info-images{
+display: grid;
+grid-gap: 20px;
+grid-template-columns: repeat(3, 1fr);
+}
+#boxes-a{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#boxes p{
+    line-height: 2rem;
+    font-size: 1rem;
+    color: #9e9e9e
+}
+#info-attribute p{
+    color:#9e9e9e;
+}
+#core-content{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-gap: 15rem;
+    background: url(imgs/pexels-photo-105857.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+    margin-bottom:0;
+}
+#core-left img{
+    width:200px;
+    height: 400px;
+}
+#core-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    text-align: center;
+    margin-left:6rem;
+
+}
+#core-right{
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#core-right ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+    line-height: 2rem;
+    text-align: center;
+}
+#contact{
+    color:#fafafa;
+    margin:1rem 3rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap:20px;
+    padding-bottom: 1rem;
+}
+.yer{
+    background:#333;
+}
+.input-text{
+    padding:0.3rem 1rem;
+}
+#newsletter .sign{
+    margin-left:0;
+    padding:0.4rem;
+    background:#000;
+    color:#fff;
+    border:none;
+    transition:background 500ms ease;
+}
+#newsletter .sign:hover{
+    background:#ccc;
+    color:#000;
+}
+#newsletter label{
+    line-height: 2rem;
+    font-size: 1rem;
+}
+#newsletter{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:start;
+    text-align: start;
+}
+#About-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+    width:80%;
+}
+#About-us p{
+margin-top:0
+}
+#contact-us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: start;
+}
+
+#contact-us img{
+    background: #fff;
+    padding:0px;
+    margin-right: 5px;
+}
+#contact-us ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+    line-height:2rem;
+}
+#contact-us li{
+    padding-left:5px;
+}
+.green{
+    color:#56a79a
+}
+.current{
+    color:#56a79a;
+}
+footer{
+background: #56a79a;
+padding:0.4rem;
+text-align: center;
+color: #fff;
+}
+label{
+    line-height:2rem;
+}
+.boy{
+    background: #333;
+}
+#crate{
+    width:80%;
+    margin: auto;
+}
+#toast{
+    background: #333;
+    margin-bottom: 2rem;
+    padding:1rem;
+}
+#toast form{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+form .text-input{
+    width: 50%;
+    padding:0.5rem;
+
+}
+#main-header h1{
+    margin-left:20%;
+}
+
+.submit{
+    width:51.6%;
+    padding:0.7rem 1rem;
+    border:none;
+    background: #000;
+    color:#fafafa;
+    transition:background 500ms ease;
+    font-size:1rem;
+}
+.submit:hover{
+    background:#ccc;
+    color:#333;
+}
+label{
+    color:#fafafafa;
+}
+.crest{
+    text-align: center;
+}
+.crest h3{
+    text-transform: capitalize;
+}
+.offer{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 1rem;
+    width: 80%;
+    margin:auto;
+}
+#message{
+    width:48%;
+    padding:1rem;
+    line-height: 1.3rem
+}
+.features{
+    background:#333;
+}
+.cyan{
+    background:#56a79a;
+    color:#fafafa;
+    padding:1rem 0.5rem;
+}
+.black{
+    color:#fafafa;
+    padding:1rem 0.5rem;
+}
+.margin{
+    width: 80%;
+    margin: auto;
+}
+#service{
+    display: block;
+    margin-top:0;
+    background:#333;
+    color:#fafafa;
+    padding:0.2rem;
+    padding-left:10%;
+}
+
+.what{
+    margin-top:3rem;
+}
+.what h3{
+text-align: center;
+align-items: center;
+justify-content: center;
+text-transform: capitalize;
+}
+#quarantine{
+    width: 80%;
+    margin: auto;
+}
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.middle h4{
+    text-align: center;
+}
+.middle .top{
+    margin-top:0;
+}
+p{
+    line-height: 1.3rem;
+}
+.break{
+    border-bottom:1px solid #56a79a
+}
+@media(max-width:500px){
+    .container{
+        grid-template-columns: 1fr;
+        grid-gap:10px;
+        margin-top:0;
+        height: 30vh;
+
+    }
+    #core-content{
+        grid-template-columns: 1fr;
+        grid-gap: 15px;
+        padding:1rem;  
+    }
+    #core-left{
+        margin-left:4rem;
+    }
+    #info-images{
+        grid-template-columns: 1fr;
+    }
+    .submit{
+        width:55.5%;
+    }
+    #message{
+        width:45%;
+        line-height: 1.3rem;
+    }
+    .cover h1{
+    font-size: 0.8rem;
+    padding:0.2rem;
+    }
+    }
